@@ -1,4 +1,4 @@
-# Building RESTful Web APIs with Node.js, Express, MongoDB and TypeScript
+# Users Restful API using Node, Express, Mongo
 
 This is a simple API that saves user information of people. 
 
