@@ -68,7 +68,7 @@ Send GET request to http://localhost:5001/users/
 ```
 Send POST request to http://localhost:5001/user/
 ```
-```
+```json
 "{ name: 'blablablabla...', email: 'blablabla...', birthday: '1980-01-23'}"
 ```
 
@@ -77,7 +77,7 @@ Send POST request to http://localhost:5001/user/
 ```
 Send PUT request to http://localhost:5001/user/:user_id
 ```
-```
+```json
 "{ name: 'blablablabla...', email: 'blablabla...', birthday: '1980-01-23'}"
 ```
 
