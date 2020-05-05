@@ -30,6 +30,15 @@ Then install the dependencies
 npm install
 ```
 
+## Create .env file in project root directory
+
+```
+MONGO_DB_URL="mongodb://localhost/user_db"
+PORT=5001
+```
+
+
+
 ## Start the server
 
 Run in development mode
