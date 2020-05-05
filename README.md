@@ -55,10 +55,35 @@ npm run prod
 
 ## Testing 
 
-The default URL is: *http://localhost:3000*
+The default URL is: *http://localhost:5001*
 
-+ GET all Userss
++ GET all Users
 
 ```
-Send GET request to http://localhost:3000/users/
+Send GET request to http://localhost:5001/users/
 ```
+
++ Create a new user
+
+```
+Send POST request to http://localhost:5001/user/
+```
+```
+"{ name: 'blablablabla...', email: 'blablabla...', birthday: '1980-01-23'}"
+```
+
++ Update user
+
+```
+Send PUT request to http://localhost:5001/user/:user_id
+```
+```
+"{ name: 'blablablabla...', email: 'blablabla...', birthday: '1980-01-23'}"
+```
+
++ Delete user
+
+```
+Send DELETE request to http://localhost:5001/user/:user_id
+```
+
